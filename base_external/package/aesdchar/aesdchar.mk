@@ -1,4 +1,4 @@
-AESDCHAR_VERSION = e9efb87fcd0ab0a36bc5c320a64dbadb522df5fb
+AESDCHAR_VERSION = 405ec4f0a7e29b23d1ebc4f483347e4f1d1a6bd6
 AESDCHAR_SITE = git@github.com:cu-ecen-aeld/assignments-3-and-later-woytzek.git
 AESDCHAR_SITE_METHOD = git
 AESDCHAR_GIT_SUBMODULES = YES
