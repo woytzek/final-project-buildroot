@@ -9,7 +9,7 @@ define KERNEL_MODULE_BUILD_CMDS
     $(MAKE) -C '$(@D)' LINUX_DIR='$(LINUX_DIR)' CC='$(TARGET_CC)' LD='$(TARGET_LD)' modules
 endef
 
-DRIVERS_MODULE_SUBDIRS = gpio-rw
+DRIVERS_MODULE_SUBDIRS = gpio-rw dht22-dev
 
 $(eval $(kernel-module))
 $(eval $(generic-package))
